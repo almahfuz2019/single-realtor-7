@@ -1,0 +1,29 @@
+{
+  "name": "single-realtor-9",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^14.2.5",
+    "aos": "^2.3.4",
+    "keen-slider": "^6.8.6",
+    "next": "^14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5",
+    "react-hook-form": "^7.52.1",
+    "react-tabs": "^6.0.2"
+  },
+  "devDependencies": {
+    "daisyui": "^4.12.10",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.4"
+  }
+}

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* fonts  */
+body {
+  font-family: "Merriweather", serif;
+  background-color: #e0d7c7;
+}
+.font-merriweather {
+  font-family: "Merriweather", serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
