@@ -4,66 +4,66 @@ import Image from "next/image";
 const condos = [
   {
     id: 1,
-    imageSrc: "https://i.ibb.co/p2RB3Bw/Rectangle-3957.png",
+    imageSrc: "/Images/Featured/Featured1_Image.png",
     status: "For Sell",
     price: "$4,25,000",
     title: "Riverfront Residences",
     address: "12/A, 42 Trudo Road, Toronto",
     details: [
       {
-        icon: "https://i.ibb.co/Tmbf2bc/image-37-3.png",
+        icon: "/Images/Featured/bed.webp",
         text: "3 Beds",
       },
       {
-        icon: "https://i.ibb.co/8KDcKc6/image-38-2.png",
+        icon: "/Images/Featured/bath.webp",
         text: "3 Baths",
       },
       {
-        icon: "https://i.ibb.co/cQVkT0X/image-39-2.png",
+        icon: "/Images/Featured/measurement.webp",
         text: "5430 Sq/Ft",
       },
     ],
   },
   {
     id: 2,
-    imageSrc: "https://i.ibb.co/p2RB3Bw/Rectangle-3957.png",
+    imageSrc: "/Images/Featured/Featured2_Image.png",
     status: "For Sell",
     price: "$4,25,000",
     title: "Lakeside Apartments",
     address: "45/B, 78 Sunny Road, Toronto",
     details: [
       {
-        icon: "https://i.ibb.co/Tmbf2bc/image-37-3.png",
+        icon: "/Images/Featured/bed.webp",
         text: "2 Beds",
       },
       {
-        icon: "https://i.ibb.co/8KDcKc6/image-38-2.png",
+        icon: "/Images/Featured/bath.webp",
         text: "2 Baths",
       },
       {
-        icon: "https://i.ibb.co/cQVkT0X/image-39-2.png",
+        icon: "/Images/Featured/measurement.webp",
         text: "3200 Sq/Ft",
       },
     ],
   },
   {
     id: 3,
-    imageSrc: "https://i.ibb.co/p2RB3Bw/Rectangle-3957.png",
+    imageSrc: "/Images/Featured/Featured3_Image.png",
     status: "For Sell",
     price: "$4,25,000",
     title: "Urban Heights",
     address: "98/C, 12 Green Road, Toronto",
     details: [
       {
-        icon: "https://i.ibb.co/Tmbf2bc/image-37-3.png",
+        icon: "/Images/Featured/bed.webp",
         text: "4 Beds",
       },
       {
-        icon: "https://i.ibb.co/8KDcKc6/image-38-2.png",
+        icon: "/Images/Featured/bath.webp",
         text: "4 Baths",
       },
       {
-        icon: "https://i.ibb.co/cQVkT0X/image-39-2.png",
+        icon: "/Images/Featured/measurement.webp",
         text: "4500 Sq/Ft",
       },
     ],
@@ -74,7 +74,7 @@ const condos = [
 export default function FeaturedCondos() {
 
   return (
-    <div className="bg-[#EBE0CF] px-4 py-16 md:py-20 xl:py-24">
+    <div id="listing" className="bg-[#EBE0CF] px-4 py-16 md:py-20 xl:py-24">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         <header className="mb-12" data-aos="fade-right">
           <h2 className="text-4xl md:text-5xl font-merriweather mb-4">
@@ -85,7 +85,7 @@ export default function FeaturedCondos() {
             with Modern Amenities in Prime Locations. Find Your Perfect Urban
             Retreat with Our Expertly Curated Listings.
           </p>
-          <div className="flex justify-end">
+          <div className="flex justify-end lg:justify-start">
             <button className="border border-primary text-accent font-medium py-2 px-6 rounded-lg hover:bg-primary hover:text-white transition-all duration-300 ease-in-out hover:shadow-lg">
               Browse All Condos
             </button>
@@ -94,7 +94,7 @@ export default function FeaturedCondos() {
         {condos.map((condo) => (
           <div
             key={condo.id}
-            className="flex sm:items-end flex-col sm:flex-row rounded-2xl overflow-hidden border border-[#211C1D80]"
+            className="flex sm:items-center flex-col sm:flex-row rounded-2xl overflow-hidden border border-[#211C1D80]"
             data-aos="fade-up"
           >
             <Image
@@ -121,7 +121,7 @@ export default function FeaturedCondos() {
                   <Image
                     height="20"
                     width="20"
-                    src="https://i.ibb.co/Scd0jP8/Mask-group-29.png"
+                    src="/Images/Featured/location.webp"
                     alt="Location Icon"
                     className=""
                   />{" "}

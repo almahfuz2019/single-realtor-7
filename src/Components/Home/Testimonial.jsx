@@ -7,61 +7,61 @@ import Image from "next/image";
 const testimonials = [
   {
     id: 1,
-    imageSrc: "https://i.ibb.co/0mRc7xR/Rectangle-3958.png",
+    imageSrc:"/Images/Testimonial/image1.webp",
     stars: 5,
     quote: "“Working with John Smith was a game-changer.”",
     text: "Working with John Smith was a game-changer. His expertise and personalized approach made the home-buying process smooth and stress-free. We found our dream home quickly and at a great price. Highly recommend John for anyone looking to buy or sell their home!",
-    authorImage: "https://i.ibb.co/VQB0dRW/Rectangle-3896.png",
+    authorImage: "/Images/Testimonial/user1.webp",
     authorName: "David Smith",
     authorTitle: "Eco Analyst",
   },
   {
     id: 2,
-    imageSrc: "https://i.ibb.co/0mRc7xR/Rectangle-3958.png",
+    imageSrc:"/Images/Testimonial/image1.webp",
     stars: 5,
     quote: "“Working with John Smith was a game-changer.”",
     text: "Working with John Smith was a game-changer. His expertise and personalized approach made the home-buying process smooth and stress-free. We found our dream home quickly and at a great price. Highly recommend John for anyone looking to buy or sell their home!",
-    authorImage: "https://i.ibb.co/VQB0dRW/Rectangle-3896.png",
+    authorImage: "/Images/Testimonial/user1.webp",
     authorName: "David Smith",
     authorTitle: "Eco Analyst",
   },
   {
     id: 3,
-    imageSrc: "https://i.ibb.co/0mRc7xR/Rectangle-3958.png",
+    imageSrc:"/Images/Testimonial/image1.webp",
     stars: 5,
     quote: "“Working with John Smith was a game-changer.”",
     text: "Working with John Smith was a game-changer. His expertise and personalized approach made the home-buying process smooth and stress-free. We found our dream home quickly and at a great price. Highly recommend John for anyone looking to buy or sell their home!",
-    authorImage: "https://i.ibb.co/VQB0dRW/Rectangle-3896.png",
+    authorImage: "/Images/Testimonial/user1.webp",
     authorName: "David Smith",
     authorTitle: "Eco Analyst",
   },
   {
     id: 4,
-    imageSrc: "https://i.ibb.co/0mRc7xR/Rectangle-3958.png",
+    imageSrc:"/Images/Testimonial/image1.webp",
     stars: 5,
     quote: "“Working with John Smith was a game-changer.”",
     text: "Working with John Smith was a game-changer. His expertise and personalized approach made the home-buying process smooth and stress-free. We found our dream home quickly and at a great price. Highly recommend John for anyone looking to buy or sell their home!",
-    authorImage: "https://i.ibb.co/VQB0dRW/Rectangle-3896.png",
+    authorImage: "/Images/Testimonial/user1.webp",
     authorName: "David Smith",
     authorTitle: "Eco Analyst",
   },
   {
     id: 5,
-    imageSrc: "https://i.ibb.co/0mRc7xR/Rectangle-3958.png",
+    imageSrc:"/Images/Testimonial/image1.webp",
     stars: 5,
     quote: "“Working with John Smith was a game-changer.”",
     text: "Working with John Smith was a game-changer. His expertise and personalized approach made the home-buying process smooth and stress-free. We found our dream home quickly and at a great price. Highly recommend John for anyone looking to buy or sell their home!",
-    authorImage: "https://i.ibb.co/VQB0dRW/Rectangle-3896.png",
+    authorImage: "/Images/Testimonial/user1.webp",
     authorName: "David Smith",
     authorTitle: "Eco Analyst",
   },
   {
     id: 6,
-    imageSrc: "https://i.ibb.co/0mRc7xR/Rectangle-3958.png",
+    imageSrc:"/Images/Testimonial/image1.webp",
     stars: 4,
     quote: "“Working with John Smith was a game-changer.”",
     text: "Working with John Smith was a game-changer. His expertise and personalized approach made the home-buying process smooth and stress-free. We found our dream home quickly and at a great price. Highly recommend John for anyone looking to buy or sell their home!",
-    authorImage: "https://i.ibb.co/VQB0dRW/Rectangle-3896.png",
+    authorImage: "/Images/Testimonial/user1.webp",
     authorName: "David Smith",
     authorTitle: "Eco Analyst",
   },
@@ -97,6 +97,7 @@ const Testimonial = () => {
 
   return (
     <div
+      id="testimonial"
       className="max-w-screen-xl mx-auto h-full flex flex-col items-center px-4 py-16 md:py-20 xl:py-28"
       data-aos="fade-up"
     >
@@ -135,7 +136,7 @@ const Testimonial = () => {
                       width={40}
                       height={40}
                       className="w-auto h-[30px]"
-                      src="https://i.ibb.co/b2MYBGB/Star-26.png"
+                      src="/Images/Testimonial/star.webp"
                       alt={`Star ${i + 1}`}
                     />
                   ))}
@@ -176,7 +177,7 @@ const Testimonial = () => {
                         <Image
                           width={30}
                           height={30}
-                          src="https://i.ibb.co/DVfFNZx/Frame-1000008402.png"
+                          src="/Images/Testimonial/left_arrow.webp"
                           alt="Previous Slide"
                         />
                       </button>
@@ -187,7 +188,7 @@ const Testimonial = () => {
                         <Image
                           width={30}
                           height={30}
-                          src="https://i.ibb.co/pZ3Wwyz/Frame-1000008403.png"
+                          src="/Images/Testimonial/right_arrow.webp"
                           alt="Next Slide"
                         />
                       </button>

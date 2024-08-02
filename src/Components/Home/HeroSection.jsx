@@ -1,9 +1,6 @@
-
 import Image from "next/image";
 
 export default function HeroSection() {
- 
-
   return (
     <div className="bg-[#E0D7C7] h-screen sm:h-auto 2xl:h-screen flex flex-col items-center justify-center">
       <div className="max-w-screen-xl mx-auto px-4 py-8 md:py-12">
@@ -33,7 +30,7 @@ export default function HeroSection() {
                 data-aos-delay="200"
               >
                 <Image
-                  src="https://i.ibb.co/TcyCmZ6/Mask-group-28.png"
+                  src="/Images/Home/call_icon.webp"
                   height={20}
                   width={20}
                   alt="Call Icon"
@@ -89,7 +86,7 @@ export default function HeroSection() {
           >
             <div data-aos="zoom-in">
               <Image
-                src="https://i.ibb.co/Yyh6qHw/Rectangle-3932.png"
+                src="/Images/Home/Image2.webp"
                 alt="Building"
                 className="w-full rounded-lg"
                 width={363}
@@ -99,7 +96,7 @@ export default function HeroSection() {
             <div data-aos="zoom-in" data-aos-delay="100">
               <div>
                 <Image
-                  src="https://i.ibb.co/wp5MmD4/Rectangle-3931.png"
+                  src="/Images/Home/Image1.webp"
                   alt="Realtor"
                   className="w-full h-full object-cover rounded-lg"
                   width={363}
@@ -113,7 +110,7 @@ export default function HeroSection() {
               >
                 <div>
                   <Image
-                    src="https://i.ibb.co/qCRKhJy/Rectangle-3950.png"
+                    src="/Images/Home/Image3.webp"
                     alt="Handshake"
                     className="rounded-lg"
                     width={169}
@@ -122,7 +119,7 @@ export default function HeroSection() {
                 </div>
                 <div>
                   <Image
-                    src="https://i.ibb.co/0ZDvF2D/Rectangle-3951.png"
+                    src="/Images/Home/Image4.webp"
                     alt="House showing"
                     className="object-cover rounded-lg"
                     width={169}

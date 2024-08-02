@@ -1,5 +1,4 @@
 import About from "@/Components/Home/About";
-import Contact from "@/Components/Home/Contact";
 import Featured from "@/Components/Home/FeaturedListing";
 import HeroSection from "@/Components/Home/HeroSection";
 import Insights from "@/Components/Home/Insights";
@@ -18,7 +17,7 @@ export default function HomePage() {
      <SearchArea/>
      <Testimonial/>
       <Insights />
-      {/* <Contact /> */}
+   
     </div>
   );
 }

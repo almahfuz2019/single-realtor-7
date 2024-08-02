@@ -6,41 +6,40 @@ const insightsData = [
     title: "Essential Home Buying Guidelines for First-Time Buyers",
     description:
       "Explore inspiring stories of successful real estate transactions and learn valuable tips from experienced professionals.",
-    imageUrl: "https://i.ibb.co/p3gm9Nf/Rectangle-3922.png",
+    imageUrl: "/Images/Blog/blog1_image.webp",
     link: "#",
   },
   {
     title: "Essential Home Buying Guidelines for First-Time Buyers",
     description:
       "Delve into detailed descriptions of the most sought-after neighborhoods and what makes them unique.",
-    imageUrl: "https://i.ibb.co/p3gm9Nf/Rectangle-3922.png",
+    imageUrl: "/Images/Blog/blog1_image.webp",
     link: "#",
   },
   {
     title: "Essential Home Buying Guidelines for First-Time Buyers",
     description:
       "Stay updated with the latest market trends and insights to make informed real estate decisions.",
-    imageUrl: "https://i.ibb.co/p3gm9Nf/Rectangle-3922.png",
+    imageUrl: "/Images/Blog/blog1_image.webp",
     link: "#",
   },
   {
     title: "Essential Home Buying Guidelines for First-Time Buyers",
     description:
       "Read about the experiences of homeowners and get inspired by their journeys in the real estate world.",
-    imageUrl: "https://i.ibb.co/p3gm9Nf/Rectangle-3922.png",
+    imageUrl: "/Images/Blog/blog1_image.webp",
     link: "#",
   },
   {
     title: "Essential Home Buying Guidelines for First-Time Buyers",
     description:
       "Read about the experiences of homeowners and get inspired by their journeys in the real estate world.",
-    imageUrl: "https://i.ibb.co/p3gm9Nf/Rectangle-3922.png",
+    imageUrl: "/Images/Blog/blog1_image.webp",
     link: "#",
   },
 ];
 
 export default function Insights() {
-
   return (
     <div
       id="insights"
@@ -90,7 +89,7 @@ export default function Insights() {
                   </button>
                   <p className="text-accent text-xl flex items-center gap-3">
                     <Image
-                      src="https://i.ibb.co/GnBTJP9/image-107.png"
+                      src="/Images/Blog/date.webp"
                       height="24"
                       width="24"
                       alt="calendar"

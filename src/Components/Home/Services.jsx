@@ -6,37 +6,37 @@ const services = [
     title: "Home Buying Assistance",
     description:
       "Expert guidance through every step of purchasing your new home, from search and negotiation to closing and move-in.",
-    icon: "https://i.ibb.co/9ngB853/Mask-group-32.png",
+    icon: "/Images/Services/Icon1.png",
   },
   {
     title: "Home Selling Services",
     description:
       "Home selling support, including market analysis, professional staging, marketing, and expert negotiation for top dollar.",
-    icon: "https://i.ibb.co/JrdcQYG/Mask-group-24.png",
+    icon: "/Images/Services/Icon2.png",
   },
   {
     title: "Best Rental Listings",
     description:
       "Home selling support, including market analysis, professional staging, marketing, and expert negotiation for top dollar.",
-    icon: "https://i.ibb.co/JrdcQYG/Mask-group-24.png",
+    icon: "/Images/Services/Icon3.png",
   },
   {
     title: "Home Analysis & Valuation",
     description:
       "Gain insights into local market trends and accurate property valuations to make informed decisions.",
-    icon: "https://i.ibb.co/nMCgQ6q/Mask-group-35.png",
+    icon: "/Images/Services/Icon4.png",
   },
   {
     title: "Mortgage Consultation",
     description:
       "Expert advice on mortgage options, rates, and financing strategies tailored to your unique needs and financial goals.",
-    icon: "https://i.ibb.co/TTKn9Gn/Mask-group-36.png",
+    icon: "/Images/Services/Icon5.png",
   },
   {
     title: "Relocation Support",
     description:
       "Assistance for relocating clients, including neighborhood insights, logistical support for a smooth transition.",
-    icon: "https://i.ibb.co/JrdcQYG/Mask-group-24.png",
+    icon: "/Images/Services/Icon6.png",
   },
   // Additional services...
 ];
@@ -45,7 +45,10 @@ export default function Services() {
 
 
   return (
-    <article className="bg-[#E0D7C7]  px-4 py-16 md:py-20 xl:py-28">
+    <article
+      id="services"
+      className="bg-[#E0D7C7]  px-4 py-16 md:py-20 xl:py-28"
+    >
       {" "}
       {/* Using <article> for semantic HTML */}
       <div className="max-w-screen-xl mx-auto text-center">

@@ -4,24 +4,24 @@ import Image from "next/image";
 const socialLinks = [
   {
     href: "https://facebook.com",
-    icon: "https://i.ibb.co/7CsskFW/Mask-group-25.png",
+    icon: "/Images/About/facebook.webp",
     alt: "Facebook",
   },
   {
     href: "https://twitter.com",
-    icon: "https://i.ibb.co/bJ7pRj4/Mask-group-26.png",
+    icon: "/Images/About/twitter.webp",
     alt: "Twitter",
   },
   {
     href: "https://instagram.com",
-    icon: "https://i.ibb.co/5BZvWMw/Mask-group-27.png",
+    icon: "/Images/About/instagram.webp",
     alt: "Instagram",
   },
 ];
 
 export default function AboutAlisha() {
   return (
-    <section className="bg-[#EBE0CF] px-4 py-16 md:py-20 xl:py-24">
+    <section id="aboutme" className="bg-[#EBE0CF] px-4 py-16 md:py-20 xl:py-24">
       {/* Header */}
       <header>
         <h2
@@ -35,7 +35,7 @@ export default function AboutAlisha() {
       <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center gap-12 md:gap-20">
         <div className="relative mb-6 md:mb-0 md:mr-8" data-aos="fade-right">
           <Image
-            src="https://i.ibb.co/12KLwwx/Group-185.png"
+            src="/Images/About/me.webp"
             alt="Alisha Lehman"
             className="rounded-lg"
             width={366}

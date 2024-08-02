@@ -7,7 +7,7 @@ const SearchArea = () => {
     <section
       className="relative overflow-hidden bg-cover bg-center px-4 py-16 md:py-20 xl:py-24 flex items-center justify-center my-16 md:my-20 xl:my-24"
       style={{
-        backgroundImage: `url('https://i.ibb.co/7gcKCXd/Rectangle-161-2.png')`,
+        backgroundImage: `url(${"/Images/Search_area_Bg.png"})`,
       }}
       id="guideline"
     >

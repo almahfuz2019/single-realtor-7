@@ -31,7 +31,7 @@ export default function Navbar() {
                 className=""
                 height="43"
                 width="130"
-                src="https://i.ibb.co/7gc2gZJ/Group-168-2.png"
+                src="/Images/Navbar/logo.webp"
                 alt="Logo"
               />
             </a>
